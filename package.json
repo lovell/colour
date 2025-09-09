@@ -1,6 +1,6 @@
 {
   "name": "@img/colour",
-  "version": "1.0.0-rc.2",
+  "version": "1.0.0",
   "description": "The ESM-only 'color' package made compatible for use with CommonJS runtimes",
   "license": "MIT",
   "main": "index.cjs",
