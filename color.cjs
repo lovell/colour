@@ -24,7 +24,7 @@ __export(index_exports, {
 module.exports = __toCommonJS(index_exports);
 
 // node_modules/color-name/index.js
-var color_name_default = {
+var colors = {
   aliceblue: [240, 248, 255],
   antiquewhite: [250, 235, 215],
   aqua: [0, 255, 255],
@@ -174,6 +174,8 @@ var color_name_default = {
   yellow: [255, 255, 0],
   yellowgreen: [154, 205, 50]
 };
+for (const key in colors) Object.freeze(colors[key]);
+var color_name_default = Object.freeze(colors);
 
 // node_modules/color-string/index.js
 var reverseNames = /* @__PURE__ */ Object.create(null);
