@@ -535,7 +535,7 @@ convert.rgb.keyword = function(rgb) {
   return currentClosestKeyword;
 };
 convert.keyword.rgb = function(keyword) {
-  return color_name_default[keyword];
+  return [...color_name_default[keyword]];
 };
 convert.rgb.xyz = function(rgb) {
   const r = srgbNonlinearTransformInv(rgb[0] / 255);
