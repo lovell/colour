@@ -1,0 +1,9 @@
+// This tsconfig file is only used for generating declaration files with "npm run build:dts"
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": true,
+    "esModuleInterop": true
+  }
+}
