@@ -53,6 +53,7 @@
     "color-name": "2.1.0",
     "color-string": "2.1.4",
     "dts-bundle-generator": "^9.5.1",
-    "esbuild": "^0.28.0"
+    "esbuild": "^0.28.0",
+    "typescript": "^6.0.3"
   }
 }
